@@ -13,14 +13,19 @@
 
 button{
     box-sizing: border-box;
-    width: 6vw;
+    width: 200px;
     height: 50px;
     background-color: rgb(20, 22, 21);
     color: aliceblue;
     font-weight: 600;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 #reset{
     color: red;
+}
+
+button:hover{
+    background-color: red;
 }
